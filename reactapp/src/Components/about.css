@@ -1,0 +1,69 @@
+.image1
+{
+    margin-right: 70%;
+    margin-left: 0%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+.motion
+{
+    background-image: url("network3.jpg");
+    padding-bottom: 90%;
+    padding-top: 0%;
+}
+.para0
+{
+    
+margin-top:-25%;
+margin-left: 27%;
+font-size: 40px;
+}
+.para1
+{
+    margin-left: 40%;
+    margin-top: 4%;
+    margin-bottom: 0%;
+     margin-right: 10%; 
+    font-size: large;
+}
+.img2
+{
+   
+    padding-top: 0%;
+    margin-right: 10%;
+    margin-left: 0%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+.para2{
+    margin-top:-7%;
+    margin-left: 0%;
+    font-size: 20px;
+    margin-right:70%;
+}
+.para3{
+    margin-left: 35%;
+    margin-top: -16%;
+    margin-bottom: 0%;
+     margin-right: 40%; 
+    font-size: 20px;
+   
+}
+ .para4{
+    margin-top: -16%;
+    margin-left: 70%;
+    font-size: 20px;
+}
+.foot1{
+    height: 25em;
+    width: 80em;
+    background-color: grey;
+}
+.foot2{
+    text-align: center;
+    padding-left: 80%;
+}
+.bottom{
+   margin-top: 8em;
+   margin-left: 8em;
+}

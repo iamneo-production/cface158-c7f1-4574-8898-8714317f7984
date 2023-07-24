@@ -1,0 +1,118 @@
+.link
+{
+    height: 35px;
+   display: flex;
+    padding-left: 80%;
+    padding-right: 20%;
+    padding-top: 0%;
+    
+    font-weight: 300;
+}
+.nav2{
+    background-color: rgb(7, 7, 7);
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem calc((100vw - 1000px) / 2);
+    z-index: 12; 
+}
+.cards-container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 60%;
+    position: relative;
+    border-radius: 20px;
+    margin-top: 3%;
+  }
+
+.carda {
+    
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    height: 1600px;
+    margin-left: 150px;
+    position: relative; 
+   border-radius: 20px;
+   
+  } 
+  
+  .cardb {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top:10px;
+    border: 1px solid #ccc;
+    height: 1600px;
+    position: relative; 
+    border-radius: 20px;
+  } 
+.cardc {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    border: 1px solid #ccc;
+    height: 1600px;
+    position: relative; 
+    border-radius: 20px; 
+  }
+.minicontent
+  {
+    line-height: 2;
+    position: relative;
+    padding-top: 10%;
+  }
+.content1
+  {
+    padding-top: 150px;
+  }
+button{
+    width:250px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 0;
+  }
+.btn
+{
+padding-top: 10px;
+}
+.carda1
+  {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    height: 400px;
+    position: relative; 
+    border-radius: 20px;
+    perspective: 1000px;
+    
+  }
+  
+  
+  .carda2
+  {
+    background-color: rgb(239, 150, 41);
+    border: 1px solid #ccc;
+    height: 400px;
+    position: relative; 
+    border-radius: 20px; 
+  }
+  .carda3
+  {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    height: 400px;
+    position: relative; 
+    border-radius: 20px; 
+  }
+  .carda4
+  {
+    background-color: rgb(239, 150, 41);
+    border: 1px solid #ccc;
+    height: 400px;
+    position: relative; 
+    border-radius: 20px; 
+  }
+ 

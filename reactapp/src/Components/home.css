@@ -1,0 +1,170 @@
+body {
+    padding:20px 10px;
+     margin:0;
+     font-family:Arial Helvetica sans-serif;
+    }
+.nav{
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;    
+    font-weight: 600;
+}
+.link
+{
+    height: 35px;
+   display: flex;
+    padding-left: 80%;
+    padding-right: 20%;
+    padding-top: 0%;
+    
+    font-weight: 300;
+}
+.nav2{
+    background-color: rgb(7, 7, 7);
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem calc((100vw - 1000px) / 2);
+    z-index: 12; 
+}
+.back1{
+    background-image: url('homebackground.jpg');
+    opacity: 0.9;
+    width: 1260px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.text1{
+    padding-top: 6%;
+    font-size: 20px;
+}
+.text2{
+    font-size: 20px;
+}
+.motion
+{
+    background-image: url("boy.gif");
+    width: 1260px;
+    height: 550px;
+}
+.foot1{
+    height: 40em;
+    width: 80em;
+    background-color: grey;
+}
+.foot2{
+text-align: center;
+    padding-left: 80%;
+    text-align: left;
+    margin-left: -40%;
+}
+.icon
+{
+    width: 50px;
+    height: 50px;
+}
+.cards-container1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 90%;
+    position: relative;
+    /* background-color: #333; */
+    border-radius: 20px;
+    margin-top: 3%;
+  }
+
+.card1 {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    background-image:url("boy.gif" );
+  background-position: center;
+    background-size: 450px;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-left: 30px;
+    position: relative; 
+    
+   border-radius: 20px;
+  
+  } 
+  
+  .card2 {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    background-image:url(" https://res.cloudinary.com/dyrrmsdbj/image/upload/v1689242801/Good_Idea_roq4hj.jpg" );
+    /* height: 100vh; */
+    background-size: 350px;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-left: 30px;
+    position: relative; 
+    
+    border-radius: 20px;
+  
+  } 
+  
+  .card3 {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    background-image:url("boy2.gif" );
+    /* height: 100vh; */
+    background-size: 450px;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-left: 30px;
+    position: relative; 
+    
+    border-radius: 20px;
+  
+  }
+  .post
+  {
+    margin-top: -34px;
+    height: 55px; 
+    width: 55px;
+  }
+  .postbtn
+  {
+     background-color: #d045b4;
+    width:250px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 0.5;
+  }
+  .foot3{
+    text-align: center;
+    padding-left: 80%;
+    color: black;
+    margin-top: -200px;
+    margin-left: -40%;
+    text-align: left;
+}
+.foot4{
+    text-align: center;
+    padding-left: 80%;
+    margin-top: -310px;
+    margin-left: -60%;
+    text-align: left;
+}
+.log
+{
+    margin-left: 75em;
+    margin-top: -36px;
+}
+.bottom{
+    margin-top: 8em;
+    margin-left: 8em;
+ }

@@ -1,0 +1,25 @@
+.mail{
+    margin-top: 5%;
+    text-align: center;
+    background-color: white;
+    margin-left: 33%;
+    width: 30em;
+    height: 30em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(100,156,156);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.img{
+    margin: top 5%;;
+}
+.profile{
+    width: 50px;
+    margin-bottom:0.005%;
+}
+.mail1{
+    padding-top: 35%;
+}

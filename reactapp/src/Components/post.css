@@ -1,0 +1,66 @@
+.postbar
+{
+    margin-top: 0%;
+    background: linear-gradient(55deg,#12151b,#082e60);
+       height: 25em;
+   width: 81em;
+   margin-left: -1%;
+}
+.postcontent
+{
+    margin-left: -25%;
+   margin-top: -20%;
+    color: rgb(241, 243, 245);
+    font-size: 40px;
+    font-weight: 400;
+}
+.postcontent1
+{
+    margin-top: 5%;
+    color: aliceblue;
+    width: 800px;
+    font-size: large;
+    font-weight: 400;
+}
+.postcontent2
+{
+   
+    box-shadow: 0 0.188em 1.550em rgb(100,156,156);
+    background-color: rgb(246, 246, 246);
+    height: 70em;
+    width: 50em;
+    margin-left: 240px;
+}
+.postmini
+{
+    width: 790px;
+    height: 40px;
+    font-size: 20px;
+    padding-top: 4px;
+}
+hr
+{
+color: rgb(57, 71, 137);
+}
+.postmini1
+{
+    text-align: left;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.postmini2
+{
+    text-align: left;
+    padding-top: 20px;
+    font-size: 18px;  
+    width: 790px;
+    height: 40px;
+}
+.hover :hover
+{
+    border:1px solid rgb(38, 37, 37);
+}
+.clearbtn
+{
+    margin-left: 45%;
+}
