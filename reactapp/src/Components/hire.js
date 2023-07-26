@@ -46,6 +46,7 @@ const Hire = () => {
         <Link to = '/hire' style={linkStyle} activeStyle={hoverStyle}>HIRE FREELANCERS</Link>
         <Link to = '/membership' style={linkStyle} activeStyle={hoverStyle}>MEMBERSHIP</Link>
         <Link to = '/contact' style={linkStyle} activeStyle={hoverStyle}>CONTACT</Link>
+        <Link to = '/feedback' style={linkStyle} activeStyle={hoverStyle}>FEEDBACK</Link>
         </div>
         <div className="overall">
         <div className="css1">

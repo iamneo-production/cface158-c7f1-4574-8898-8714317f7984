@@ -1,8 +1,61 @@
 import "./contact.css";
-import {Link} from "react-router-dom";
+import{Link,useNavigate} from "react-router-dom";
+import axios from "axios";
+import { useState } from "react";
 
 // import { Link } from "react-router-dom";
 const Contact = () => {
+
+  const navigate=useNavigate();
+ 
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  
+
+  let token=localStorage.getItem("token");
+
+  const handleSubmit = async(e) => {
+    e.preventDefault();
+    
+    
+    console.log('Form submitted');
+    console.log('Name:', name);
+    console.log('Email:',email);
+    console.log('Message:',message);
+    
+    try {
+      const response = await axios.post(
+        "http://localhost:8181/caraddroll",
+        {
+          "name": name,
+          "email": email,
+          "message": message,
+         
+        },
+        {
+          headers: {
+           "Authorization": `Bearer ${token}`,
+            "cache-control": "no-control",
+          },
+        }
+      );
+
+      // Handle response as needed, e.g., show success message
+      console.log(response.data);
+      alert('message sent succesfully!');
+      navigate('/home');
+    } 
+    catch (error) {
+      console.log(error);
+      window.alert("Invalid Credentials");
+    }
+  
+               
+  }
+
+
+
   const linkStyle = {
     color: 'white',
     textDecoration:'none',
@@ -37,20 +90,23 @@ const Contact = () => {
         <Link to = '/membership' style={linkStyle} activeStyle={hoverStyle}>MEMBERSHIP</Link>
         <Link to = '/contact' style={linkStyle} activeStyle={hoverStyle}>CONTACT</Link>
         </div>
-        <form className="contact-form">
+        <form onSubmit={handleSubmit}  className="contact-form">
           <h2 className="form-heading">Send Us a Message</h2>
-          <div className="form-group">
-            <label htmlFor="name">Your Name</label>
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div className="form-group">
-            <label htmlFor="email">Your Email</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div className="form-group">
-            <label htmlFor="message">Your Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-          </div>
+          <div class="form-group">
+     
+  <label htmlFor="name" className="form-label">Name:</label>
+  <input type="text" id="name" className="form-input"  onChange={(e) => setName(e.target.value)} required />
+  </div>
+  <div class="form-group">
+     
+     <label htmlFor="email" className="form-label">Email:</label>
+     <input type="text" id="email" className="form-input"  onChange={(e) => setEmail(e.target.value)} required />
+     </div>
+     <div class="form-group">
+     
+     <label htmlFor="message" className="form-label">Message:</label>
+     <input type="text" id="message" className="form-input"  onChange={(e) => setMessage(e.target.value)} required />
+     </div>
           <button type="submit" className="submit-button">Send Message</button>
         </form>
       </div>

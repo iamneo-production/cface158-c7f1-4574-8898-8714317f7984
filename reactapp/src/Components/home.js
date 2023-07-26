@@ -5,6 +5,10 @@ import boy from "./boy.gif";
 import {AiOutlineInstagram} from 'react-icons/ai';
 import {CiInstagram} from 'react-icons/ci';
 import {FiLogOut} from 'react-icons/fi';
+import {FiInstagram} from "react-icons/fi";
+import {FaTwitter} from "react-icons/fa";
+import {BiLogoGmail} from "react-icons/bi";
+import {FaFacebookMessenger} from "react-icons/fa";
 
 // import { Link } from "react-router-dom";
 const Nav = () => {
@@ -68,6 +72,7 @@ const Nav = () => {
           
             </div>
             <div className="card2">
+              
                      </div>
             <div className="card3">
                     </div>
@@ -145,7 +150,12 @@ const Nav = () => {
      Copyright © 2023 Freelancer Technology Pty Limited (ACN 142 189 759) 
      </div>
      </div>
- 
+ <div className="footicons">
+ <Link to = 'https://www.instagram.com/' style={{ marginRight: '20px' }}><FiInstagram size={30}/></Link>
+ <Link to = 'https://twitter.com/i/flow/login?redirect_after_login=%2Flogin'style={{ marginRight: '20px' }}><FaTwitter size={30}/></Link>
+ <Link to = 'https://support.google.com/mail/answer/56256?hl=en'style={{ marginRight: '20px' }}><BiLogoGmail size={30}/></Link>
+ <Link to = 'https://support.google.com/mail/answer/56256?hl=en'><FaFacebookMessenger size={30}/></Link>
+ </div>
     
      </div>      </div>
       

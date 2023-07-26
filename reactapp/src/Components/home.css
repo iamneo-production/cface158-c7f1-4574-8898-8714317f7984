@@ -56,6 +56,7 @@ body {
     background-color: grey;
 }
 .foot2{
+   
 text-align: center;
     padding-left: 80%;
     text-align: left;
@@ -167,4 +168,12 @@ text-align: center;
 .bottom{
     margin-top: 8em;
     margin-left: 8em;
+ }
+ .footicons
+ {
+    margin-top: -299px;
+    margin-left: 60em;
+    height: 40px;
+    width: 400px;
+    
  }

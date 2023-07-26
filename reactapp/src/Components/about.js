@@ -46,6 +46,7 @@ const About = () => {
         <Link to = '/hire' style={linkStyle} activeStyle={hoverStyle}>HIRE FREELANCERS</Link>
         <Link to = '/membership' style={linkStyle} activeStyle={hoverStyle}>MEMBERSHIP</Link>
         <Link to = '/contact' style={linkStyle} activeStyle={hoverStyle}>CONTACT</Link>
+        <Link to = '/feedback' style={linkStyle} activeStyle={hoverStyle}>FEEDBACK</Link>
         </div>
        
       <div className="about">
@@ -148,19 +149,13 @@ Freelancer.com is the world's largest freelancing and crowdsourcing marketplace 
       </p>
       <p>
       <Link to = '/about' style={linkStyle} activeStyle={hoverStyle}>Preferred Freelancer Program</Link>
-      </p>
-      
+      </p> 
      <div className="bottom">
       Copyright © 2023 Freelancer Technology Pty Limited (ACN 142 189 759) 
       </div>
       </div>
-  
-     
       </div>
-
-      
-      </div>
-      
+      </div>  
     )
 }
 export default About;

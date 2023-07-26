@@ -43,6 +43,7 @@ const Membership=()=> {
         <Link to = '/hire' style={linkStyle} activeStyle={hoverStyle}>HIRE FREELANCERS</Link>
         <Link to = '/membership' style={linkStyle} activeStyle={hoverStyle}>MEMBERSHIP</Link>
         <Link to = '/contact' style={linkStyle} activeStyle={hoverStyle}>CONTACT</Link>
+        <Link to = '/feedback' style={linkStyle} activeStyle={hoverStyle}>FEEDBACK</Link>
         </div>
         <div className="cards-container2">
             <div className="carda">
@@ -53,7 +54,7 @@ const Membership=()=> {
 
               </div>
               <div className="btn">
-              <Link to="/login"><button>Get Started</button></Link>
+              <Link to="/payment"><button>Get Started</button></Link>
               </div>
               <div className="content1">
                 <ul>                
@@ -77,7 +78,7 @@ const Membership=()=> {
               <p>per month</p>
             </div>
             <div className="btn">
-              <Link to="/login"><button>Get Started</button></Link>
+              <Link to="/payment"><button>Get Started</button></Link>
               </div>
             <div className="content1">
                 <ul>                
@@ -105,7 +106,7 @@ const Membership=()=> {
               <p>per month</p>
               </div>
               <div className="btn">
-              <Link to="/login"><button>Get Started</button></Link>
+              <Link to="/payment"><button>Get Started</button></Link>
               </div>
               <div className="content1">
                 <ul>                
@@ -135,7 +136,7 @@ const Membership=()=> {
               <p>per month</p>
               </div>
               <div className="btn">
-              <Link to="/login"><button>Get Started</button></Link>
+              <Link to="/payment"><button>Get Started</button></Link>
               </div>
               <div className="content1">
                 <ul>                

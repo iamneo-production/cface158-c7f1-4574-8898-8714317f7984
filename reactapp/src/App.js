@@ -10,6 +10,7 @@ import Contact from './Components/contact';
 import Membership from './Components/membership';
 import Post from './Components/post';
 import store from './Components/store';
+import Payment from './Components/payment';
 import { Provider } from 'react-redux';
 import FeedForm from './Components/feedback';
 import {Routes,Route} from 'react-router-dom';
@@ -29,6 +30,7 @@ function App() {
         <Route path="/membership" element={<Membership/>}/>
         <Route path="/post" element={<Post/>}/>
         <Route path="/feedback" element={<FeedForm/>}/>
+        <Route path="/payment" element={<Payment/>}/>
       </Routes>
       </Provider>
     </div>
